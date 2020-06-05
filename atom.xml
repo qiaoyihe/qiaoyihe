@@ -5,9 +5,9 @@
   <subtitle>未来可期</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://50s0z8.coding-pages.com/"/>
+  <link href="https://www.qyihe.cn/"/>
   <updated>2020-06-04T11:32:34.068Z</updated>
-  <id>http://50s0z8.coding-pages.com/</id>
+  <id>https://www.qyihe.cn/</id>
   
   <author>
     <name>乔一禾</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Java数据类型</title>
-    <link href="http://50s0z8.coding-pages.com/2.html"/>
-    <id>http://50s0z8.coding-pages.com/2.html</id>
+    <link href="https://www.qyihe.cn/2.html"/>
+    <id>https://www.qyihe.cn/2.html</id>
     <published>2020-06-05T09:36:09.321Z</published>
     <updated>2020-06-04T11:32:34.068Z</updated>
     
@@ -35,19 +35,19 @@
     </summary>
     
     
-      <category term="技术" scheme="http://50s0z8.coding-pages.com/categories/%E6%8A%80%E6%9C%AF/"/>
+      <category term="技术" scheme="https://www.qyihe.cn/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="java" scheme="http://50s0z8.coding-pages.com/tags/java/"/>
+      <category term="java" scheme="https://www.qyihe.cn/tags/java/"/>
     
-      <category term="基础" scheme="http://50s0z8.coding-pages.com/tags/%E5%9F%BA%E7%A1%80/"/>
+      <category term="基础" scheme="https://www.qyihe.cn/tags/%E5%9F%BA%E7%A1%80/"/>
     
   </entry>
   
   <entry>
     <title>HelloChina</title>
-    <link href="http://50s0z8.coding-pages.com/1.html"/>
-    <id>http://50s0z8.coding-pages.com/1.html</id>
+    <link href="https://www.qyihe.cn/1.html"/>
+    <id>https://www.qyihe.cn/1.html</id>
     <published>2020-06-05T09:35:55.823Z</published>
     <updated>2020-06-04T11:31:57.076Z</updated>
     
@@ -63,15 +63,15 @@
     </summary>
     
     
-      <category term="生活" scheme="http://50s0z8.coding-pages.com/categories/%E7%94%9F%E6%B4%BB/"/>
+      <category term="生活" scheme="https://www.qyihe.cn/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://50s0z8.coding-pages.com/hello-world.html"/>
-    <id>http://50s0z8.coding-pages.com/hello-world.html</id>
+    <link href="https://www.qyihe.cn/hello-world.html"/>
+    <id>https://www.qyihe.cn/hello-world.html</id>
     <published>2020-06-05T09:01:47.005Z</published>
     <updated>2020-06-05T09:31:13.082Z</updated>
     
