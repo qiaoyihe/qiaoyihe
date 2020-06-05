@@ -5,9 +5,9 @@
   <subtitle>未来可期</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://www.qyihe.cn/"/>
-  <updated>2020-06-04T11:32:34.068Z</updated>
-  <id>https://www.qyihe.cn/</id>
+  <link href="http://50s0z8.coding-pages.com/"/>
+  <updated>2020-06-05T09:01:47.005Z</updated>
+  <id>http://50s0z8.coding-pages.com/</id>
   
   <author>
     <name>乔一禾</name>
@@ -17,9 +17,31 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Hello World</title>
+    <link href="http://50s0z8.coding-pages.com/hello-world.html"/>
+    <id>http://50s0z8.coding-pages.com/hello-world.html</id>
+    <published>2020-06-05T09:01:47.005Z</published>
+    <updated>2020-06-05T09:01:47.005Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>Java数据类型</title>
-    <link href="https://www.qyihe.cn/2.html"/>
-    <id>https://www.qyihe.cn/2.html</id>
+    <link href="http://50s0z8.coding-pages.com/2.html"/>
+    <id>http://50s0z8.coding-pages.com/2.html</id>
     <published>2020-06-03T12:29:16.203Z</published>
     <updated>2020-06-04T11:32:34.068Z</updated>
     
@@ -35,19 +57,19 @@
     </summary>
     
     
-      <category term="技术" scheme="https://www.qyihe.cn/categories/%E6%8A%80%E6%9C%AF/"/>
+      <category term="技术" scheme="http://50s0z8.coding-pages.com/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="java" scheme="https://www.qyihe.cn/tags/java/"/>
+      <category term="java" scheme="http://50s0z8.coding-pages.com/tags/java/"/>
     
-      <category term="基础" scheme="https://www.qyihe.cn/tags/%E5%9F%BA%E7%A1%80/"/>
+      <category term="基础" scheme="http://50s0z8.coding-pages.com/tags/%E5%9F%BA%E7%A1%80/"/>
     
   </entry>
   
   <entry>
     <title>HelloChina</title>
-    <link href="https://www.qyihe.cn/1.html"/>
-    <id>https://www.qyihe.cn/1.html</id>
+    <link href="http://50s0z8.coding-pages.com/1.html"/>
+    <id>http://50s0z8.coding-pages.com/1.html</id>
     <published>2020-06-01T15:32:54.469Z</published>
     <updated>2020-06-04T11:31:57.076Z</updated>
     
@@ -63,15 +85,15 @@
     </summary>
     
     
-      <category term="生活" scheme="https://www.qyihe.cn/categories/%E7%94%9F%E6%B4%BB/"/>
+      <category term="生活" scheme="http://50s0z8.coding-pages.com/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="https://www.qyihe.cn/HelloWorld.html"/>
-    <id>https://www.qyihe.cn/HelloWorld.html</id>
+    <link href="http://50s0z8.coding-pages.com/HelloWorld.html"/>
+    <id>http://50s0z8.coding-pages.com/HelloWorld.html</id>
     <published>2020-06-01T08:17:49.716Z</published>
     <updated>2020-06-04T11:31:38.108Z</updated>
     
@@ -87,7 +109,7 @@
     </summary>
     
     
-      <category term="折腾" scheme="https://www.qyihe.cn/categories/%E6%8A%98%E8%85%BE/"/>
+      <category term="折腾" scheme="http://50s0z8.coding-pages.com/categories/%E6%8A%98%E8%85%BE/"/>
     
     
   </entry>
