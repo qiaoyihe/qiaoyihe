@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>进制转换</title>
+      <link href="/4.html"/>
+      <url>/4.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="进制区分"><a href="#进制区分" class="headerlink" title="进制区分"></a>进制区分</h1><table><thead><tr><th>进制</th><th>组成</th><th>例如</th></tr></thead><tbody><tr><td>2进制</td><td>只有0和1组成</td><td>101010</td></tr><tr><td>8进制</td><td>以0开头,0~7组成</td><td>01234</td></tr><tr><td>10进制</td><td>以1<del>9开头,0</del>9组成</td><td>100</td></tr><tr><td>16进制</td><td>以0X开头,0<del>9或者a</del>f组成</td><td>0x12c</td></tr></tbody></table><h1 id="进制转换"><a href="#进制转换" class="headerlink" title="进制转换"></a>进制转换</h1><h2 id="十进制转二进制"><a href="#十进制转二进制" class="headerlink" title="十进制转二进制"></a>十进制转二进制</h2><p>十进制数除2取余法即十进制数除2，余数为权位上的数，得到的商值继续除2，依此步骤继续向下运算直到商为0为止。</p><h2 id="二进制转十进制"><a href="#二进制转十进制" class="headerlink" title="二进制转十进制"></a>二进制转十进制</h2><p>把二进制数按权展开,相加即得十进制数。</p><h2 id="二进制转八进制"><a href="#二进制转八进制" class="headerlink" title="二进制转八进制"></a>二进制转八进制</h2><p>3位二进制数按权展开相加得到1位八进制数,（注意事项，3位二进制转成八进制是从右到左开始转换，不足时补0）。</p><h2 id="八进制转成二进制"><a href="#八进制转成二进制" class="headerlink" title="八进制转成二进制"></a>八进制转成二进制</h2><p>八进制数通过除2取余法，得到二进制数，对每个八进制为3个二进制，不足时在最左边补零。</p><h2 id="二进制转十六进制"><a href="#二进制转十六进制" class="headerlink" title="二进制转十六进制"></a>二进制转十六进制</h2><p>与二进制转八进制方法近似，八进制是取三合一，十六进制是取四合一。（注意事项，4位二进制转成十六进制是从右到左开始转换，不足时补0）</p><h2 id="十进制与八进制与十六进制之间的转换"><a href="#十进制与八进制与十六进制之间的转换" class="headerlink" title="十进制与八进制与十六进制之间的转换"></a>十进制与八进制与十六进制之间的转换</h2><h3 id="十进制转八进制或者十六进制有两种方法"><a href="#十进制转八进制或者十六进制有两种方法" class="headerlink" title="十进制转八进制或者十六进制有两种方法"></a>十进制转八进制或者十六进制有两种方法</h3><p>2：间接法—把十进制转成二进制，然后再由二进制转成八进制或者十六进制。这里不再做图片用法解释。</p><p>1：把十进制转八进制或者十六进制按照除8或者16取余，直到商为0为止。</p><h2 id="八进制或者十六进制转成十进制"><a href="#八进制或者十六进制转成十进制" class="headerlink" title="八进制或者十六进制转成十进制"></a>八进制或者十六进制转成十进制</h2><p>把八进制、十六进制数按权展开、相加即得十进制数。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java </tag>
+            
+            <tag> 基础 </tag>
+            
+            <tag> 进制 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Java数据类型</title>
       <link href="/2.html"/>
       <url>/2.html</url>
