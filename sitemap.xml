@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.qyihe.cn/about/index.html</loc>
+    
+    <lastmod>2020-06-07T12:08:14.622Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.qyihe.cn/messageboard/index.html</loc>
+    
+    <lastmod>2020-06-07T12:02:18.702Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.qyihe.cn/5.html</loc>
     
     <lastmod>2020-06-07T03:31:45.989Z</lastmod>
@@ -47,20 +61,6 @@
     <loc>https://www.qyihe.cn/link/index.html</loc>
     
     <lastmod>2020-06-05T11:52:01.882Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.qyihe.cn/about/index.html</loc>
-    
-    <lastmod>2020-06-05T11:47:09.499Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.qyihe.cn/messageboard/index.html</loc>
-    
-    <lastmod>2020-06-03T09:49:30.964Z</lastmod>
     
   </url>
   
