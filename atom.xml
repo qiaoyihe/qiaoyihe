@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.qyihe.cn/"/>
-  <updated>2020-06-07T03:31:45.989Z</updated>
+  <updated>2020-06-16T10:14:29.575Z</updated>
   <id>https://www.qyihe.cn/</id>
   
   <author>
@@ -17,11 +17,41 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Java equals和==的区别</title>
+    <link href="https://www.qyihe.cn/6.html"/>
+    <id>https://www.qyihe.cn/6.html</id>
+    <published>2020-06-16T10:01:58.000Z</published>
+    <updated>2020-06-16T10:14:29.575Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id=""><a href="#" class="headerlink" title="=="></a>==</h1><p>==不要和=搞混了,=是一个赋值<br>而==是一个比较运算符，基本数据类型比较的是值，引用数据类型比较的值是地址值。<br>这个运算符的两边如果都是基本数据类型,判断的是基本数据类型的值是否相等<br>比如:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">int i&#x3D;1;</span><br><span class="line">int n&#x3D;1;</span><br><span class="line">System.out.println(i&#x3D;&#x3D;j);&#x2F;&#x2F;返回值为true</span><br></pre></td></tr></table></figure><h1 id="equals"><a href="#equals" class="headerlink" title="equals"></a>equals</h1><p>equals()是一个方法，只能比较引用数据类型。重写前比较的是地址值，重写后比一般是比较对象的属性。<br>如果没有重写equals方法,就是继承自Object的equals方法,Object类中的equals方法判断的是地址<br>判断String类型的数据除外,Object类中的equals方法在判断String类型数据时,判断的是内容</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">public boolean equals(Object anObject) &#123;</span><br><span class="line">        if (this &#x3D;&#x3D; anObject) &#123;</span><br><span class="line">            return true;</span><br><span class="line">        &#125;</span><br><span class="line">        if (anObject instanceof String) &#123;</span><br><span class="line">            String anotherString &#x3D; (String)anObject;</span><br><span class="line">            int n &#x3D; value.length;</span><br><span class="line">            if (n &#x3D;&#x3D; anotherString.value.length) &#123;</span><br><span class="line">                char v1[] &#x3D; value;</span><br><span class="line">                char v2[] &#x3D; anotherString.value;</span><br><span class="line">                int i &#x3D; 0;</span><br><span class="line">                while (n-- !&#x3D; 0) &#123;</span><br><span class="line">                    if (v1[i] !&#x3D; v2[i])</span><br><span class="line">                        return false;</span><br><span class="line">                    i++;</span><br><span class="line">                &#125;</span><br><span class="line">                return true;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        return false;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;==&quot;&gt;&lt;/a&gt;==&lt;/h1&gt;&lt;p&gt;==不要和=搞混了,=是一个赋值&lt;br&gt;而==是一个比较运算符，基本数据类型比较的是值，引用数据类型比较的值是地址值。&lt;br&gt;这个运算符的两边如果都
+      
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://www.qyihe.cn/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="java" scheme="https://www.qyihe.cn/tags/java/"/>
+    
+      <category term="基础" scheme="https://www.qyihe.cn/tags/%E5%9F%BA%E7%A1%80/"/>
+    
+      <category term="进制" scheme="https://www.qyihe.cn/tags/%E8%BF%9B%E5%88%B6/"/>
+    
+  </entry>
+  
+  <entry>
     <title>你想清楚了吗</title>
     <link href="https://www.qyihe.cn/5.html"/>
     <id>https://www.qyihe.cn/5.html</id>
     <published>2020-06-07T03:13:52.000Z</published>
-    <updated>2020-06-07T03:31:45.989Z</updated>
+    <updated>2020-06-07T03:31:46.000Z</updated>
     
     <content type="html"><![CDATA[<p>所以，想清楚了吗？<br>怀疑的就再想清楚，<br>想清楚了就别再犹豫。</p><p>到底你，<br>是怎样的你。<br>你想要的是什么，</p><p>然后，<br>给自己多一点信心，<br>对自己多一点尊重。<br>相信自己所做的决择。</p><p>因为你，<br>得决定你想要什么，<br>不要让别人带给你的想象<br>左右你的目标。</p><p>让自己，<br>为自己而活，为值得的而活，<br>别再为别人所得到所拥有，<br>而自己没必要的一切而烦恼。</p>]]></content>
     
@@ -48,7 +78,7 @@
     <link href="https://www.qyihe.cn/4.html"/>
     <id>https://www.qyihe.cn/4.html</id>
     <published>2020-06-06T13:42:17.000Z</published>
-    <updated>2020-06-06T14:05:07.293Z</updated>
+    <updated>2020-06-06T14:05:08.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="进制区分"><a href="#进制区分" class="headerlink" title="进制区分"></a>进制区分</h1><table><thead><tr><th>进制</th><th>组成</th><th>例如</th></tr></thead><tbody><tr><td>2进制</td><td>只有0和1组成</td><td>101010</td></tr><tr><td>8进制</td><td>以0开头,0~7组成</td><td>01234</td></tr><tr><td>10进制</td><td>以1<del>9开头,0</del>9组成</td><td>100</td></tr><tr><td>16进制</td><td>以0X开头,0<del>9或者a</del>f组成</td><td>0x12c</td></tr></tbody></table><h1 id="进制转换"><a href="#进制转换" class="headerlink" title="进制转换"></a>进制转换</h1><h2 id="十进制转二进制"><a href="#十进制转二进制" class="headerlink" title="十进制转二进制"></a>十进制转二进制</h2><p>十进制数除2取余法即十进制数除2，余数为权位上的数，得到的商值继续除2，依此步骤继续向下运算直到商为0为止。</p><h2 id="二进制转十进制"><a href="#二进制转十进制" class="headerlink" title="二进制转十进制"></a>二进制转十进制</h2><p>把二进制数按权展开,相加即得十进制数。</p><h2 id="二进制转八进制"><a href="#二进制转八进制" class="headerlink" title="二进制转八进制"></a>二进制转八进制</h2><p>3位二进制数按权展开相加得到1位八进制数,（注意事项，3位二进制转成八进制是从右到左开始转换，不足时补0）。</p><h2 id="八进制转成二进制"><a href="#八进制转成二进制" class="headerlink" title="八进制转成二进制"></a>八进制转成二进制</h2><p>八进制数通过除2取余法，得到二进制数，对每个八进制为3个二进制，不足时在最左边补零。</p><h2 id="二进制转十六进制"><a href="#二进制转十六进制" class="headerlink" title="二进制转十六进制"></a>二进制转十六进制</h2><p>与二进制转八进制方法近似，八进制是取三合一，十六进制是取四合一。（注意事项，4位二进制转成十六进制是从右到左开始转换，不足时补0）</p><h2 id="十进制与八进制与十六进制之间的转换"><a href="#十进制与八进制与十六进制之间的转换" class="headerlink" title="十进制与八进制与十六进制之间的转换"></a>十进制与八进制与十六进制之间的转换</h2><h3 id="十进制转八进制或者十六进制有两种方法"><a href="#十进制转八进制或者十六进制有两种方法" class="headerlink" title="十进制转八进制或者十六进制有两种方法"></a>十进制转八进制或者十六进制有两种方法</h3><p>2：间接法—把十进制转成二进制，然后再由二进制转成八进制或者十六进制。这里不再做图片用法解释。</p><p>1：把十进制转八进制或者十六进制按照除8或者16取余，直到商为0为止。</p><h2 id="八进制或者十六进制转成十进制"><a href="#八进制或者十六进制转成十进制" class="headerlink" title="八进制或者十六进制转成十进制"></a>八进制或者十六进制转成十进制</h2><p>把八进制、十六进制数按权展开、相加即得十进制数。</p>]]></content>
     
@@ -81,11 +111,37 @@
   </entry>
   
   <entry>
+    <title>Github初始化配置</title>
+    <link href="https://www.qyihe.cn/3.html"/>
+    <id>https://www.qyihe.cn/3.html</id>
+    <published>2020-06-05T12:18:05.000Z</published>
+    <updated>2020-06-05T12:58:30.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="初次安装-git-配置用户名和邮箱"><a href="#初次安装-git-配置用户名和邮箱" class="headerlink" title="初次安装 git 配置用户名和邮箱"></a>初次安装 git 配置用户名和邮箱</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;xxx&quot;</span><br><span class="line">git config --global user.email &quot;xxx@qq.com&quot;</span><br></pre></td></tr></table></figure><h2 id="git-使用-ssh-密钥"><a href="#git-使用-ssh-密钥" class="headerlink" title="git 使用 ssh 密钥"></a>git 使用 ssh 密钥</h2><p>git 支持 https 和 git 两种传输协议，GitHub 分享链接时会有两种协议可选。</p><ul><li>使用 https 协议，每次 pull、push 都会提示要输入密码</li><li>使用 git 协议，然后使用 ssh 密钥，这样免去每次都输密码的麻烦<br>初次使用 git 的用户要使用 git 协议大概需要三个步骤<h3 id="生成密钥对"><a href="#生成密钥对" class="headerlink" title="生成密钥对"></a>生成密钥对</h3>大多数 Git 服务器都会选择使用 SSH 公钥来进行授权。系统中的每个用户都必须提供一个公钥用于授权，没有的话就要生成一个。生成公钥的过程在所有操作系统上都差不多。首先你要确认一下本机是否已经有一个公钥。<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd ~&#x2F;.ssh</span><br><span class="line">ls</span><br></pre></td></tr></table></figure>看一下有没有 id_rsa 和 id_rsa.pub(或者是 id_dsa 和 id_dsa.pub 之类成对的文件)，有 .pub 后缀的文件就是公钥，另一个文件则是密钥。</li></ul><p>假如没有这些文件，甚至连.ssh 目录都没有，可以用 ssh-keygen 来创建。该程序在 Linux/Mac 系统上由 SSH 包提供，而在 Windows 上则包含在 MSysGit 包里：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &lt;xxx@qq.com&gt;</span><br><span class="line">Creates a new ssh key using the provided email \# Generating public&#x2F;private rsa key pair.</span><br><span class="line">Enter file in which to save the key (&#x2F;home&#x2F;you&#x2F;.ssh&#x2F;id_rsa):</span><br></pre></td></tr></table></figure><p>按Enter,然后，会提示你输入密码，如下 (建议输一个，安全一点，当然不输也行，应该不会有人闲的无聊冒充你去修改你的代码)：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Enter same passphrase again: [Type passphrase again]</span><br></pre></td></tr></table></figure><p>到此为止，你本地的密钥对就生成了。</p><h4 id="添加公钥到你的远程仓库（GitHub）"><a href="#添加公钥到你的远程仓库（GitHub）" class="headerlink" title="添加公钥到你的远程仓库（GitHub）"></a>添加公钥到你的远程仓库（GitHub）</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cat ~&#x2F;.ssh&#x2F;id_rsa.pub</span><br><span class="line">ssh-rsa xxx admin\@admin-PC</span><br></pre></td></tr></table></figure><h5 id="SSH-Key"><a href="#SSH-Key" class="headerlink" title="SSH Key"></a>SSH Key</h5><p>登陆你的 GitHub 帐户，点击你的头像，然后 Settings -&gt; 左栏点击 SSH and GPG keys -&gt; 点击 New SSH key -&gt; 然后你复制上面的公钥内容（上面全部），粘贴进“Key”文本域内。title域，自己随便起个名字。 -&gt; 点击 Add key。</p><h6 id="验证-key"><a href="#验证-key" class="headerlink" title="验证 key"></a>验证 key</h6><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">ssh -T &lt;git@github.com&gt;</span><br><span class="line">Hi xxx! You&#39;ve successfully authenticated, but GitHub does not \# provide shell</span><br><span class="line">access.</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;初次安装-git-配置用户名和邮箱&quot;&gt;&lt;a href=&quot;#初次安装-git-配置用户名和邮箱&quot; class=&quot;headerlink&quot; title=&quot;初次安装 git 配置用户名和邮箱&quot;&gt;&lt;/a&gt;初次安装 git 配置用户名和邮箱&lt;/h3&gt;&lt;figure class
+      
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://www.qyihe.cn/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="Github" scheme="https://www.qyihe.cn/tags/Github/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Java数据类型</title>
     <link href="https://www.qyihe.cn/2.html"/>
     <id>https://www.qyihe.cn/2.html</id>
-    <published>2020-06-06T11:41:50.997Z</published>
-    <updated>2020-06-05T12:17:11.068Z</updated>
+    <published>2020-06-05T12:17:12.000Z</published>
+    <updated>2020-06-05T12:17:12.000Z</updated>
     
     <content type="html"><![CDATA[<p>Java是一种强类型语言，每个变量都必须声明其类型。<br>Java语言提供了八种基本类型。六种数字类型（四个整数型，两个浮点型），一种字符类型，还有一种布尔型。<br>Java变量是程序中最基本的存储单元，其要素包括变量名，变量类型和作用域。<br>变量在使用前必须对其声明, 只有在变量声明以后，才能为其分配相应长度的存储单元,声明格式为： </p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">String name = “Java”,<span class="keyword">int</span> num = <span class="number">12</span>;</span><br></pre></td></tr></table></figure><h3 id="基本数据类型："><a href="#基本数据类型：" class="headerlink" title="基本数据类型："></a>基本数据类型：</h3><h3 id="整数型："><a href="#整数型：" class="headerlink" title="整数型："></a>整数型：</h3><p>byte：<br>byte 数据类型是8位、有符号的，以二进制补码表示的整数；<br>最小值是 -128（-2^7）；<br>最大值是 127（2^7-1）；<br>byte 类型用在大型数组中节约空间，主要代替整数，因为 byte 变量占用的空间只有 int 类型的四分之一；<br>例子：byte a = 12，byte b = -12。</p><h3 id="short："><a href="#short：" class="headerlink" title="short："></a>short：</h3><p>short 数据类型是 16 位、有符号的以二进制补码表示的整数<br>最小值是 -32768（-2^15）；<br>最大值是 32767（2^15 - 1）；<br>Short 数据类型也可以像 byte 那样节省空间。一个short变量是int型变量所占空间的二分之一；<br>例子：short s = 10000，short r = -10000。</p><h3 id="int："><a href="#int：" class="headerlink" title="int："></a>int：</h3><p>int 数据类型是32位、有符号的以二进制补码表示的整数；<br>最小值是 -2,147,483,648（-2^31）；<br>最大值是 2,147,483,647（2^31 - 1）；<br>一般地整型变量默认为 int 类型；<br>例子：int a = 10000, int b = -20000。</p><h3 id="long："><a href="#long：" class="headerlink" title="long："></a>long：</h3><p>long 数据类型是 64 位、有符号的以二进制补码表示的整数；<br>最小值是 -9,223,372,036,854,775,808（-2^63）；<br>最大值是 9,223,372,036,854,775,807（2^63 -1）；<br>这种类型主要使用在需要比较大整数的系统上；<br>例子： long a = 100000L，Long b = -100000L。<br>“L”理论上不分大小写，但是若写成”l”容易与数字”1”混淆，不容易分辩。所以最好大写。</p><h3 id="浮点类型"><a href="#浮点类型" class="headerlink" title="浮点类型"></a>浮点类型</h3><h3 id="float："><a href="#float：" class="headerlink" title="float："></a>float：</h3><p>float 数据类型是单精度、32位、符合IEEE 754标准的浮点数；<br>float 在储存大型浮点数组的时候可节省内存空间；<br>浮点数不能用来表示精确的值，如货币；<br>例子：float f1 = 123.4f。</p><h3 id="double："><a href="#double：" class="headerlink" title="double："></a>double：</h3><p>double 数据类型是双精度、64 位、符合IEEE 754标准的浮点数；<br>浮点数的默认类型为double类型；<br>double类型同样不能表示精确的值，如货币；<br>例子：double d1 = 123.4。</p><h3 id="引用类型"><a href="#引用类型" class="headerlink" title="引用类型"></a>引用类型</h3><h3 id="char："><a href="#char：" class="headerlink" title="char："></a>char：</h3><p>char类型是一个单一的 16 位 Unicode 字符；<br>最小值是 \u0000（即为0）；<br>最大值是 \uffff（即为65,535）；<br>char 数据类型可以储存任何字符；<br>例子：char letter = ‘C’;。</p><h3 id="布尔类型"><a href="#布尔类型" class="headerlink" title="布尔类型"></a>布尔类型</h3><h3 id="boolean："><a href="#boolean：" class="headerlink" title="boolean："></a>boolean：</h3><p>boolean数据类型表示一位的信息；<br>只有两个取值：true 和 false；<br>这种类型只作为一种标志来记录 true/false 情况；<br>默认值是 false；<br>例子：boolean one = true。</p><h3 id="内存中占据的存储大小："><a href="#内存中占据的存储大小：" class="headerlink" title="内存中占据的存储大小："></a>内存中占据的存储大小：</h3><p><img src="https://i.loli.net/2020/06/03/yPIv9wcZ4MqGphk.png" alt="Java"><br>整数类型：<br>byte&lt;short&lt;int&lt;long<br>浮点型：<br>float&lt;double<br>引用类型：<br>char<br>布尔型 ：<br>boolean</p>]]></content>
     
@@ -105,32 +161,6 @@
       <category term="java" scheme="https://www.qyihe.cn/tags/java/"/>
     
       <category term="基础" scheme="https://www.qyihe.cn/tags/%E5%9F%BA%E7%A1%80/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Github初始化配置</title>
-    <link href="https://www.qyihe.cn/3.html"/>
-    <id>https://www.qyihe.cn/3.html</id>
-    <published>2020-06-05T12:18:05.000Z</published>
-    <updated>2020-06-05T12:58:29.133Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="初次安装-git-配置用户名和邮箱"><a href="#初次安装-git-配置用户名和邮箱" class="headerlink" title="初次安装 git 配置用户名和邮箱"></a>初次安装 git 配置用户名和邮箱</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;xxx&quot;</span><br><span class="line">git config --global user.email &quot;xxx@qq.com&quot;</span><br></pre></td></tr></table></figure><h2 id="git-使用-ssh-密钥"><a href="#git-使用-ssh-密钥" class="headerlink" title="git 使用 ssh 密钥"></a>git 使用 ssh 密钥</h2><p>git 支持 https 和 git 两种传输协议，GitHub 分享链接时会有两种协议可选。</p><ul><li>使用 https 协议，每次 pull、push 都会提示要输入密码</li><li>使用 git 协议，然后使用 ssh 密钥，这样免去每次都输密码的麻烦<br>初次使用 git 的用户要使用 git 协议大概需要三个步骤<h3 id="生成密钥对"><a href="#生成密钥对" class="headerlink" title="生成密钥对"></a>生成密钥对</h3>大多数 Git 服务器都会选择使用 SSH 公钥来进行授权。系统中的每个用户都必须提供一个公钥用于授权，没有的话就要生成一个。生成公钥的过程在所有操作系统上都差不多。首先你要确认一下本机是否已经有一个公钥。<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd ~&#x2F;.ssh</span><br><span class="line">ls</span><br></pre></td></tr></table></figure>看一下有没有 id_rsa 和 id_rsa.pub(或者是 id_dsa 和 id_dsa.pub 之类成对的文件)，有 .pub 后缀的文件就是公钥，另一个文件则是密钥。</li></ul><p>假如没有这些文件，甚至连.ssh 目录都没有，可以用 ssh-keygen 来创建。该程序在 Linux/Mac 系统上由 SSH 包提供，而在 Windows 上则包含在 MSysGit 包里：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &lt;xxx@qq.com&gt;</span><br><span class="line">Creates a new ssh key using the provided email \# Generating public&#x2F;private rsa key pair.</span><br><span class="line">Enter file in which to save the key (&#x2F;home&#x2F;you&#x2F;.ssh&#x2F;id_rsa):</span><br></pre></td></tr></table></figure><p>按Enter,然后，会提示你输入密码，如下 (建议输一个，安全一点，当然不输也行，应该不会有人闲的无聊冒充你去修改你的代码)：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Enter same passphrase again: [Type passphrase again]</span><br></pre></td></tr></table></figure><p>到此为止，你本地的密钥对就生成了。</p><h4 id="添加公钥到你的远程仓库（GitHub）"><a href="#添加公钥到你的远程仓库（GitHub）" class="headerlink" title="添加公钥到你的远程仓库（GitHub）"></a>添加公钥到你的远程仓库（GitHub）</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cat ~&#x2F;.ssh&#x2F;id_rsa.pub</span><br><span class="line">ssh-rsa xxx admin\@admin-PC</span><br></pre></td></tr></table></figure><h5 id="SSH-Key"><a href="#SSH-Key" class="headerlink" title="SSH Key"></a>SSH Key</h5><p>登陆你的 GitHub 帐户，点击你的头像，然后 Settings -&gt; 左栏点击 SSH and GPG keys -&gt; 点击 New SSH key -&gt; 然后你复制上面的公钥内容（上面全部），粘贴进“Key”文本域内。title域，自己随便起个名字。 -&gt; 点击 Add key。</p><h6 id="验证-key"><a href="#验证-key" class="headerlink" title="验证 key"></a>验证 key</h6><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">ssh -T &lt;git@github.com&gt;</span><br><span class="line">Hi xxx! You&#39;ve successfully authenticated, but GitHub does not \# provide shell</span><br><span class="line">access.</span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h3 id=&quot;初次安装-git-配置用户名和邮箱&quot;&gt;&lt;a href=&quot;#初次安装-git-配置用户名和邮箱&quot; class=&quot;headerlink&quot; title=&quot;初次安装 git 配置用户名和邮箱&quot;&gt;&lt;/a&gt;初次安装 git 配置用户名和邮箱&lt;/h3&gt;&lt;figure class
-      
-    
-    </summary>
-    
-    
-      <category term="技术" scheme="https://www.qyihe.cn/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="Github" scheme="https://www.qyihe.cn/tags/Github/"/>
     
   </entry>
   
