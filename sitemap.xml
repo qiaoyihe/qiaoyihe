@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.qyihe.cn/about/index.html</loc>
+    
+    <lastmod>2020-06-17T12:58:43.478Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.qyihe.cn/photo/gd/index.html</loc>
     
     <lastmod>2020-06-17T12:39:46.717Z</lastmod>
@@ -26,13 +33,6 @@
     <loc>https://www.qyihe.cn/mood/index.html</loc>
     
     <lastmod>2020-06-09T08:31:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.qyihe.cn/about/index.html</loc>
-    
-    <lastmod>2020-06-07T12:08:16.000Z</lastmod>
     
   </url>
   
