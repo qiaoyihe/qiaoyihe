@@ -38,34 +38,6 @@
   </entry>
   
   <entry>
-    <title>Java数据类型</title>
-    <link href="https://www.qyihe.cn/2.html"/>
-    <id>https://www.qyihe.cn/2.html</id>
-    <published>2020-07-01T10:46:57.283Z</published>
-    <updated>2020-06-05T12:17:12.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>Java是一种强类型语言，每个变量都必须声明其类型。<br>Java语言提供了八种基本类型。六种数字类型（四个整数型，两个浮点型），一种字符类型，还有一种布尔型。<br>Java变量是程序中最基本的存储单元，其要素包括变量名，变量类型和作用域。<br>变量在使用前必须对其声明, 只有在变量声明以后，才能为其分配相应长度的存储单元,声明格式为： </p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">String name = “Java”,<span class="keyword">int</span> num = <span class="number">12</span>;</span><br></pre></td></tr></table></figure><h3 id="基本数据类型："><a href="#基本数据类型：" class="headerlink" title="基本数据类型："></a>基本数据类型：</h3><h3 id="整数型："><a href="#整数型：" class="headerlink" title="整数型："></a>整数型：</h3><p>byte：<br>byte 数据类型是8位、有符号的，以二进制补码表示的整数；<br>最小值是 -128（-2^7）；<br>最大值是 127（2^7-1）；<br>byte 类型用在大型数组中节约空间，主要代替整数，因为 byte 变量占用的空间只有 int 类型的四分之一；<br>例子：byte a = 12，byte b = -12。</p><h3 id="short："><a href="#short：" class="headerlink" title="short："></a>short：</h3><p>short 数据类型是 16 位、有符号的以二进制补码表示的整数<br>最小值是 -32768（-2^15）；<br>最大值是 32767（2^15 - 1）；<br>Short 数据类型也可以像 byte 那样节省空间。一个short变量是int型变量所占空间的二分之一；<br>例子：short s = 10000，short r = -10000。</p><h3 id="int："><a href="#int：" class="headerlink" title="int："></a>int：</h3><p>int 数据类型是32位、有符号的以二进制补码表示的整数；<br>最小值是 -2,147,483,648（-2^31）；<br>最大值是 2,147,483,647（2^31 - 1）；<br>一般地整型变量默认为 int 类型；<br>例子：int a = 10000, int b = -20000。</p><h3 id="long："><a href="#long：" class="headerlink" title="long："></a>long：</h3><p>long 数据类型是 64 位、有符号的以二进制补码表示的整数；<br>最小值是 -9,223,372,036,854,775,808（-2^63）；<br>最大值是 9,223,372,036,854,775,807（2^63 -1）；<br>这种类型主要使用在需要比较大整数的系统上；<br>例子： long a = 100000L，Long b = -100000L。<br>“L”理论上不分大小写，但是若写成”l”容易与数字”1”混淆，不容易分辩。所以最好大写。</p><h3 id="浮点类型"><a href="#浮点类型" class="headerlink" title="浮点类型"></a>浮点类型</h3><h3 id="float："><a href="#float：" class="headerlink" title="float："></a>float：</h3><p>float 数据类型是单精度、32位、符合IEEE 754标准的浮点数；<br>float 在储存大型浮点数组的时候可节省内存空间；<br>浮点数不能用来表示精确的值，如货币；<br>例子：float f1 = 123.4f。</p><h3 id="double："><a href="#double：" class="headerlink" title="double："></a>double：</h3><p>double 数据类型是双精度、64 位、符合IEEE 754标准的浮点数；<br>浮点数的默认类型为double类型；<br>double类型同样不能表示精确的值，如货币；<br>例子：double d1 = 123.4。</p><h3 id="引用类型"><a href="#引用类型" class="headerlink" title="引用类型"></a>引用类型</h3><h3 id="char："><a href="#char：" class="headerlink" title="char："></a>char：</h3><p>char类型是一个单一的 16 位 Unicode 字符；<br>最小值是 \u0000（即为0）；<br>最大值是 \uffff（即为65,535）；<br>char 数据类型可以储存任何字符；<br>例子：char letter = ‘C’;。</p><h3 id="布尔类型"><a href="#布尔类型" class="headerlink" title="布尔类型"></a>布尔类型</h3><h3 id="boolean："><a href="#boolean：" class="headerlink" title="boolean："></a>boolean：</h3><p>boolean数据类型表示一位的信息；<br>只有两个取值：true 和 false；<br>这种类型只作为一种标志来记录 true/false 情况；<br>默认值是 false；<br>例子：boolean one = true。</p><h3 id="内存中占据的存储大小："><a href="#内存中占据的存储大小：" class="headerlink" title="内存中占据的存储大小："></a>内存中占据的存储大小：</h3><p><img src= "/img/loading.gif" data-src="https://i.loli.net/2020/06/03/yPIv9wcZ4MqGphk.png" alt="Java"><br>整数类型：<br>byte&lt;short&lt;int&lt;long<br>浮点型：<br>float&lt;double<br>引用类型：<br>char<br>布尔型 ：<br>boolean</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Java是一种强类型语言，每个变量都必须声明其类型。&lt;br&gt;Java语言提供了八种基本类型。六种数字类型（四个整数型，两个浮点型），一种字符类型，还有一种布尔型。&lt;br&gt;Java变量是程序中最基本的存储单元，其要素包括变量名，变量类型和作用域。&lt;br&gt;变量在使用前必须对其声
-      
-    
-    </summary>
-    
-    
-      <category term="技术" scheme="https://www.qyihe.cn/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="java" scheme="https://www.qyihe.cn/tags/java/"/>
-    
-      <category term="基础" scheme="https://www.qyihe.cn/tags/%E5%9F%BA%E7%A1%80/"/>
-    
-  </entry>
-  
-  <entry>
     <title>《解忧杂货店》读后感</title>
     <link href="https://www.qyihe.cn/8.html"/>
     <id>https://www.qyihe.cn/8.html</id>
@@ -235,6 +207,34 @@
     
     
       <category term="Github" scheme="https://www.qyihe.cn/tags/Github/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java数据类型</title>
+    <link href="https://www.qyihe.cn/2.html"/>
+    <id>https://www.qyihe.cn/2.html</id>
+    <published>2020-06-01T14:00:45.000Z</published>
+    <updated>2020-07-01T15:54:51.871Z</updated>
+    
+    <content type="html"><![CDATA[<p>Java是一种强类型语言，每个变量都必须声明其类型。<br>Java语言提供了八种基本类型。六种数字类型（四个整数型，两个浮点型），一种字符类型，还有一种布尔型。<br>Java变量是程序中最基本的存储单元，其要素包括变量名，变量类型和作用域。<br>变量在使用前必须对其声明, 只有在变量声明以后，才能为其分配相应长度的存储单元,声明格式为： </p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">String name = “Java”,<span class="keyword">int</span> num = <span class="number">12</span>;</span><br></pre></td></tr></table></figure><h3 id="基本数据类型："><a href="#基本数据类型：" class="headerlink" title="基本数据类型："></a>基本数据类型：</h3><h3 id="整数型："><a href="#整数型：" class="headerlink" title="整数型："></a>整数型：</h3><p>byte：<br>byte 数据类型是8位、有符号的，以二进制补码表示的整数；<br>最小值是 -128（-2^7）；<br>最大值是 127（2^7-1）；<br>byte 类型用在大型数组中节约空间，主要代替整数，因为 byte 变量占用的空间只有 int 类型的四分之一；<br>例子：byte a = 12，byte b = -12。</p><h3 id="short："><a href="#short：" class="headerlink" title="short："></a>short：</h3><p>short 数据类型是 16 位、有符号的以二进制补码表示的整数<br>最小值是 -32768（-2^15）；<br>最大值是 32767（2^15 - 1）；<br>Short 数据类型也可以像 byte 那样节省空间。一个short变量是int型变量所占空间的二分之一；<br>例子：short s = 10000，short r = -10000。</p><h3 id="int："><a href="#int：" class="headerlink" title="int："></a>int：</h3><p>int 数据类型是32位、有符号的以二进制补码表示的整数；<br>最小值是 -2,147,483,648（-2^31）；<br>最大值是 2,147,483,647（2^31 - 1）；<br>一般地整型变量默认为 int 类型；<br>例子：int a = 10000, int b = -20000。</p><h3 id="long："><a href="#long：" class="headerlink" title="long："></a>long：</h3><p>long 数据类型是 64 位、有符号的以二进制补码表示的整数；<br>最小值是 -9,223,372,036,854,775,808（-2^63）；<br>最大值是 9,223,372,036,854,775,807（2^63 -1）；<br>这种类型主要使用在需要比较大整数的系统上；<br>例子： long a = 100000L，Long b = -100000L。<br>“L”理论上不分大小写，但是若写成”l”容易与数字”1”混淆，不容易分辩。所以最好大写。</p><h3 id="浮点类型"><a href="#浮点类型" class="headerlink" title="浮点类型"></a>浮点类型</h3><h3 id="float："><a href="#float：" class="headerlink" title="float："></a>float：</h3><p>float 数据类型是单精度、32位、符合IEEE 754标准的浮点数；<br>float 在储存大型浮点数组的时候可节省内存空间；<br>浮点数不能用来表示精确的值，如货币；<br>例子：float f1 = 123.4f。</p><h3 id="double："><a href="#double：" class="headerlink" title="double："></a>double：</h3><p>double 数据类型是双精度、64 位、符合IEEE 754标准的浮点数；<br>浮点数的默认类型为double类型；<br>double类型同样不能表示精确的值，如货币；<br>例子：double d1 = 123.4。</p><h3 id="引用类型"><a href="#引用类型" class="headerlink" title="引用类型"></a>引用类型</h3><h3 id="char："><a href="#char：" class="headerlink" title="char："></a>char：</h3><p>char类型是一个单一的 16 位 Unicode 字符；<br>最小值是 \u0000（即为0）；<br>最大值是 \uffff（即为65,535）；<br>char 数据类型可以储存任何字符；<br>例子：char letter = ‘C’;。</p><h3 id="布尔类型"><a href="#布尔类型" class="headerlink" title="布尔类型"></a>布尔类型</h3><h3 id="boolean："><a href="#boolean：" class="headerlink" title="boolean："></a>boolean：</h3><p>boolean数据类型表示一位的信息；<br>只有两个取值：true 和 false；<br>这种类型只作为一种标志来记录 true/false 情况；<br>默认值是 false；<br>例子：boolean one = true。</p><h3 id="内存中占据的存储大小："><a href="#内存中占据的存储大小：" class="headerlink" title="内存中占据的存储大小："></a>内存中占据的存储大小：</h3><p><img src= "/img/loading.gif" data-src="https://i.loli.net/2020/06/03/yPIv9wcZ4MqGphk.png" alt="Java"><br>整数类型：<br>byte&lt;short&lt;int&lt;long<br>浮点型：<br>float&lt;double<br>引用类型：<br>char<br>布尔型 ：<br>boolean</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Java是一种强类型语言，每个变量都必须声明其类型。&lt;br&gt;Java语言提供了八种基本类型。六种数字类型（四个整数型，两个浮点型），一种字符类型，还有一种布尔型。&lt;br&gt;Java变量是程序中最基本的存储单元，其要素包括变量名，变量类型和作用域。&lt;br&gt;变量在使用前必须对其声
+      
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://www.qyihe.cn/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="java" scheme="https://www.qyihe.cn/tags/java/"/>
+    
+      <category term="基础" scheme="https://www.qyihe.cn/tags/%E5%9F%BA%E7%A1%80/"/>
     
   </entry>
   
