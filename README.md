@@ -1,7 +1,11 @@
 ## Hi there 👋
 
-
 - Hello, I'm 乔一禾 👋
+
+- ![sumy7](https://komarev.com/ghpvc/?username=sumy7) ![sumy7](https://visitor-badge.glitch.me/badge?page_id=sumy7.profile)
+
+![](https://visitor-badge.glitch.me/badge?page_id=qiaoyihe.readme)
+
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=qiaoyihe&show_icons=true&theme=radical)
 <!--
