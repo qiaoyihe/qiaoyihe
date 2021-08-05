@@ -2,9 +2,8 @@
 
 - Hello, I'm 乔一禾 👋
 
-- ![](https://komarev.com/ghpvc/?username=qiaoyihe) ![](https://visitor-badge.glitch.me/badge?page_id=qiaoyihe.profile)
+- ![](https://komarev.com/ghpvc/?username=qiaoyihe) ![](https://visitor-badge.glitch.me/badge?page_id=qiaoyihe.readme)
 
-![](https://visitor-badge.glitch.me/badge?page_id=qiaoyihe.readme)
 
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=qiaoyihe&show_icons=true&theme=radical)
