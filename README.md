@@ -11,7 +11,7 @@
 - 👯 _never takes two_ follower
 - 🤔 _why does it run_ creator
 - 💬 _Hello World!_ tester
-- 📫 [![Twitter Badge]
+
 
 ## Some Statistics About Me
 
