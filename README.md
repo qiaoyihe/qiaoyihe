@@ -2,7 +2,7 @@
 
 - Hello, I'm 乔一禾 👋
 
-- ![sumy7](https://komarev.com/ghpvc/?username=qiaoyihe) ![sumy7](https://visitor-badge.glitch.me/badge?page_id=qiaoyihe.profile)
+- ![](https://komarev.com/ghpvc/?username=qiaoyihe) ![](https://visitor-badge.glitch.me/badge?page_id=qiaoyihe.profile)
 
 ![](https://visitor-badge.glitch.me/badge?page_id=qiaoyihe.readme)
 
