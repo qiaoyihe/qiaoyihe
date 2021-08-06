@@ -16,6 +16,10 @@
 ## Some Statistics About Me
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=qiaoyihe&show_icons=true&theme=radical)
+
+<imgsrc="http://ghchart.rshah.org/2016rshah"alt="qiaoyihe's Github chart" /
+
+
 <!--
 **qiaoyihe/qiaoyihe** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
