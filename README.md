@@ -17,7 +17,7 @@
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=qiaoyihe&show_icons=true&theme=radical)
 
-<imgsrc="http://ghchart.rshah.org/qiaoyihe"alt="qiaoyihe's Github chart" 
+<imgsrc="http://ghchart.rshah.org/409ba5/qiaoyihe"alt="qiaoyihe's Blue Github Chart" />
 
 
 <!--
